@@ -35,7 +35,7 @@ public class Game {
     public Game() {
     }
 
-    public Game(Long id, String title, String genre, String platforms, Double score,  Integer year, String imgUrl, String shortDescription, String longDescription) {
+    public Game(Long id, String title, String genre, String platforms, Double score, Integer year, String imgUrl, String shortDescription, String longDescription) {
         this.id = id;
         this.title = title;
         this.genre = genre;
@@ -75,11 +75,11 @@ public class Game {
         return platforms;
     }
 
-    public Double getScore(){
+    public Double getScore() {
         return score;
     }
 
-    public void setScore(Double score){
+    public void setScore(Double score) {
         this.score = score;
     }
 
@@ -120,7 +120,7 @@ public class Game {
     }
 
     @Override
-    public int hashCode(){
+    public int hashCode() {
         return Objects.hash(id);
     }
 
