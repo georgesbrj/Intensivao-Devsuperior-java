@@ -19,7 +19,7 @@
 • Configuração de CORS </br>
 
 # Modelagem do banco
-![preview](./src/main/resources/Images/modelo_de_banco.png)
+![database](https://github.com/georgesbrj/Intensivao-Devsuperior-java/blob/master/dslist/src/main/resources/Images/modelo_de_banco.png)
 
 # Rodando o projeto 
 
